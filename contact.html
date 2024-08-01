@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="image/favicon.png">
+    <title>Health&Co - Contact Us</title>
+</head>
+
+<body>
+    <!-- Scripts -->
+    <script src="js/vendor/jquery.min.js"></script>
+
+    <!-- Header -->
+    <div id="header" class="fixed-top bg-accent-opacity">
+        <div class="r-container">
+            <nav class="navbar navbar-expand-lg font-2">
+                <div class="container-fluid">
+                    <div class="logo-container">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="./image/image.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Homepage</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="services.html">Services</a></li>
+                                    <li><a class="dropdown-item" href="single_service.html">Service Detail</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Page
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="team.html">Team</a></li>
+                                    <li><a class="dropdown-item" href="appointment.html">Appointment</a></li>
+                                    <li><a class="dropdown-item" href="faq.html">FAQ's</a></li>
+                                    <li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
+                                    <li><a class="dropdown-item" href="404.html">404 Error</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="blog.html">Our Blog</a></li>
+                                    <li><a class="dropdown-item" href="single_post.html">Single Post</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div>
+                            <a href="" class="btn btn-white-accent px-4 py-3 fw-semibold">CONSULTATION</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main>
+        <!-- Banner -->
+        <div class="section position-relative"
+            style="background-image: url(image/contact.jpg); height: 70vh; background-position: top;">
+            <div class="image-overlay"></div>
+            <div class="r-container h-100 position-relative" style="z-index: 2;">
+                <div class="d-flex flex-column w-100 h-100 justify-content-center align-items-center mx-auto text-center text-white gap-3"
+                    style="max-width: 895px;">
+                    <h1 class="font-1 m-0">Contact Us</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="r-container">
+                <div class="d-flex flex-lg-row flex-column-reverse gap-5">
+                    <div class="col">
+                        <div class="d-flex flex-column">
+                            <div class="success_msg toast align-items-center w-100 shadow-none mb-3 border border-success rounded-3 my-4"
+                                role="alert" aria-live="assertive" aria-atomic="true">
+                                <div class="d-flex p-2">
+                                    <div class="toast-body f-18 d-flex flex-row gap-3 align-items-center text-success">
+                                        <i class="fa-solid fa-check f-36 text-success"></i>
+                                        Your Message Successfully Send.
+                                    </div>
+                                    <button type="button"
+                                        class="me-2 m-auto bg-transparent border-0 ps-1 pe-0 text-success"
+                                        data-bs-dismiss="toast" aria-label="Close"><i
+                                            class="fa-solid fa-xmark"></i></button>
+                                </div>
+                            </div>
+                            <div class="error_msg toast align-items-center w-100 shadow-none border-danger mb-3 my-4 border rounded-3"
+                                role="alert" aria-live="assertive" aria-atomic="true">
+                                <div class="d-flex p-2">
+                                    <div class="toast-body f-18 d-flex flex-row gap-3 align-items-center text-danger">
+                                        <i class="fa-solid fa-triangle-exclamation f-36 text-danger"></i>
+                                        Something Wrong ! Send Form Failed.
+                                    </div>
+                                    <button type="button"
+                                        class="me-2 m-auto bg-transparent border-0 ps-1 pe-0 text-danger"
+                                        data-bs-dismiss="toast" aria-label="Close"><i
+                                            class="fa-solid fa-xmark"></i></button>
+                                </div>
+                            </div>
+                            <form
+                                class="d-flex flex-column h-100 justify-content-center w-100 needs-validation mb-3 form"
+                                novalidate>
+                                <div class="col mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control py-3 px-4" name="name" id="name"
+                                        placeholder="Your Name" required>
+                                    <div class="invalid-feedback">
+                                        The field is required.
+                                    </div>
+                                </div>
+                                <div class="row row-cols-lg-2 row-cols-1">
+                                    <div class="col mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control py-3 px-4" name="email" id="email"
+                                            placeholder="Your Email" required>
+                                        <div class="invalid-feedback">
+                                            The field is required.
+                                        </div>
+                                    </div>
+                                    <div class="col mb-3">
+                                        <label for="phone" class="form-label">Phone</label>
+                                        <input type="tel" class="form-control py-3 px-4" name="phone" id="phone"
+                                            placeholder="Your Phone Number" required>
+                                        <div class="invalid-feedback">
+                                            The field is required.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control py-3 px-4" id="message" name="message" rows="5"
+                                        placeholder="Your Message"></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <button type="submit"
+                                        class="btn btn-accent submit_form py-3 w-100 d-flex justify-content-center">
+                                        Send Message
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex flex-column gap-3 h-100 justify-content-center">
+                            <span class="fw-semibold">Contact Us</span>
+                            <h3 class="font-1 fw-semibold">Send Us a Message</h3>
+                            <p class="text-gray">
+                                Curabitur quis diam malesuada sem porta mollis. Ut vel tortor in neque sollicitudin
+                                feugiat a ac ex. Etiam eleifend orci eget tempus rhoncus. Nunc ligula erat, elementum eu
+                                augue at, pharetra iaculis leo.
+                            </p>
+                            <ul class="list gap-3 text-black mb-4">
+                                <li>
+                                    <span class="d-flex flex-row align-items-center gap-3">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        KLLG st, No.99, Pku City, ID 28289
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="d-flex flex-row align-items-center gap-3">
+                                        <i class="fa-solid fa-phone"></i>
+                                        0761-8523-398
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="d-flex flex-row align-items-center gap-3">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        hello@domainsite.com
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="d-flex flex-column gap-3">
+                                <h5 class="font-1">Follow Us :</h5>
+                                <div class="social-container accent mb-lg-0 mb-3">
+                                    <a href="https://www.facebook.com" class="social-item">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://www.twitter.com" class="social-item">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com" class="social-item">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                    <a href="https://www.youtube.com" class="social-item">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section p-0">
+            <iframe loading="lazy" class="maps overflow-hidden"
+                src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near"
+                title="London Eye, London, United Kingdom" aria-label="London Eye, London, United Kingdom"></iframe>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="section pb-0 bg-accent-color text-white">
+            <div class="r-container">
+                <div class="border-bottom pb-5">
+                    <div class="row row-cols-lg-2 row-cols-1">
+                        <div class="col col-lg-4 mb-3">
+                            <div class="d-flex flex-column gap-3">
+                                <img src="image/image.png" alt="" class="img-fluid" width="160">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipiscing mauris volutpat ante ut sagittis
+                                    efficitur arcu diam faucibus eli quis rhoncus enim augue ut orci donec.
+                                </p>
+                                <div class="social-container mb-lg-0 mb-3">
+                                    <a href="https://www.facebook.com" class="social-item">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                    <a href="https://www.twitter.com" class="social-item">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com" class="social-item">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                    <a href="https://www.youtube.com" class="social-item">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-lg-8 mb-3">
+                            <div class="row row-cols-lg-3 row-cols-1">
+                                <div class="col mb-3">
+                                    <div class="d-flex flex-column gap-3">
+                                        <div class="border-bottom pb-2 w-max-content pe-3">
+                                            <h5 class="font-1">Quick Links</h5>
+                                        </div>
+                                        <ul class="list gap-3">
+                                            <li>
+                                                <a href="" class="link d-flex flex-row gap-3 align-items-center">
+                                                    <i class="fa-solid fa-chevron-right"></i>
+                                                    Home
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="link d-flex flex-row gap-3 align-items-center">
+                                                    <i class="fa-solid fa-chevron-right"></i>
+                                                    About Us
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="link d-flex flex-row gap-3 align-items-center">
+                                                    <i class="fa-solid fa-chevron-right"></i>
+                                                    Services
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="link d-flex flex-row gap-3 align-items-center">
+                                                    <i class="fa-solid fa-chevron-right"></i>
+                                                    Contact Us
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div class="d-flex flex-column gap-3">
+                                        <div class="border-bottom pb-2 w-max-content pe-3">
+                                            <h5 class="font-1">Services</h5>
+                                        </div>
+                                        <ul class="list gap-3">
+                                            <li>
+                                                <a href="" class="link d-flex flex-row gap-3 align-items-center">
+                                                    <i class="fa-solid fa-chevron-right"></i>
+                                                    Individual Counseling
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="link d-flex flex-row gap-3 align-items-center">
+                                                    <i class="fa-solid fa-chevron-right"></i>
+                                                    Couple Counseling
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="link d-flex flex-row gap-3 align-items-center">
+                                                    <i class="fa-solid fa-chevron-right"></i>
+                                                    Family Counseling
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" class="link d-flex flex-row gap-3 align-items-center">
+                                                    <i class="fa-solid fa-chevron-right"></i>
+                                                    Career Counseling
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div class="d-flex flex-column gap-3">
+                                        <div class="border-bottom pb-2 w-max-content pe-3">
+                                            <h5 class="font-1">Get In Touch</h5>
+                                        </div>
+                                        <ul class="list gap-3">
+                                            <li>
+                                                <span class="d-flex flex-row align-items-center gap-3">
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    KLLG st, No.99, Pku City, ID 28289
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="d-flex flex-row align-items-center gap-3">
+                                                    <i class="fa-solid fa-phone"></i>
+                                                    0761-8523-398
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="d-flex flex-row align-items-center gap-3">
+                                                    <i class="fa-solid fa-envelope"></i>
+                                                    hello@domainsite.com
+                                                </span>
+                                            </li>
+                                        </ul>
+                                        <div class="d-flex flex-column gap-3 mt-3">
+                                            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                                                <div id="liveToast"
+                                                    class="toast success_msg_subscribe bg-dark-transparent text-white"
+                                                    role="alert" aria-live="assertive" aria-atomic="true">
+                                                    <div class="d-flex">
+                                                        <div class="toast-body">
+                                                            Your Subscribe Send Successfully!.
+                                                        </div>
+                                                        <button type="button" class="btn me-2 m-auto text-white"
+                                                            data-bs-dismiss="toast" aria-label="Close">
+                                                            <i class="fa-solid fa-xmark"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <h5 class="font-1">Newsletter</h5>
+                                            <div>
+                                                <form
+                                                    class="d-flex flex-column h-100 justify-content-center w-100 needs-validation form"
+                                                    novalidate>
+                                                    <input type="text" name="action" value="subscribe" hidden>
+                                                    <div class="input-group mb-3">
+                                                        <input type="email" class="form-control border-white"
+                                                            placeholder="Your Email" name="email" required>
+                                                        <button
+                                                            class="btn btn-white-outline submit_subscribe border border-1 rounded-3 rounded-start-0"
+                                                            type="submit">SEND</button>
+                                                        <div class="invalid-feedback text-white">
+                                                            Please provide a valid email format (e.g.,
+                                                            user@example.com).
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-lg-row flex-column gap-3 justify-content-between py-3">
+                    <div class="d-flex flex-row gap-3 justify-content-center">
+                        <a href="" class="link text-white fs-6">Privacy Policy</a>
+                        |
+                        <a href="" class="link text-white fs-6">Term & Services</a>
+                    </div>
+                    <span class="text-center fs-6">
+                        Copyright © 2024 Vortex9. All Rights Reserved.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/swiper-script.js"></script>
+    <script src="js/submit-form.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/video_embedded.js"></script>
+    <script src="js/share.js"></script>
+    <script src="js/vendor/fslightbox.js"></script>
+</body>
+
+</html>
