@@ -14,6 +14,49 @@
     initial-value: 0;
 }
 
+
+.ppp {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.bg-secondary-color {
+    background-color: #f8f9fa;
+}
+
+.r-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: slide 40s linear infinite;
+}
+
+.logos-slide img {
+    display: inline-block;
+    height: 70px;
+    margin: 0 40px;
+}
+
+
+
 @keyframes load {
     to {
         --progress: var(--value)
