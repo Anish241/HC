@@ -52,8 +52,8 @@
     --secondary-color: #f9f5f3;
     --text-color: #3a3a3a;
     --gray-color: #8b8b8b;
-    --accent-color: #5098a5;
-    --accent-color-2: #76b9b0;
+    --accent-color: #236ac6;
+    --accent-color-2: #3a76f8;
     --font-1: "Playfair Display", serif;
     --font-2: "Noto Sans", sans-serif;
 }
@@ -331,7 +331,7 @@ a {
 }
 
 .bg-accent-opacity {
-    background-color: #5095a5d5;
+    background-color: #236ac6;
 }
 
 .accent-color {
@@ -995,7 +995,7 @@ a {
 }
 
 .glass-effect {
-    background: #5095a5d5;
+    background: #236ac6;
     backdrop-filter: blur(11px);
     -webkit-backdrop-filter: blur(11px);
 }
