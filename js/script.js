@@ -1,3 +1,15 @@
+const carouselInner = document.querySelector('.custom-carousel-inner');
+const items = document.querySelectorAll('.custom-carousel-item');
+let currentIndex = 0;
+const totalItems = items.length;
+
+function showNextSlide() {
+    currentIndex = (currentIndex + 1) % totalItems;
+    const offset = -currentIndex * 100;
+    carouselInner.style.transform = `translateX(${offset}%)`;
+}
+
+setInterval(showNextSlide, 3000); // Change slide every 3 seconds
 
 
 
