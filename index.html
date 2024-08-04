@@ -58,45 +58,66 @@
     <!-- Main -->
     <main>
         <!-- Banner -->
-        <div class="custom-carousel">
-            <div class="custom-carousel-inner">
-                <div class="custom-carousel-item active" style="background-image: url('image/banner.jpg');">
-                    <div class="custom-overlay"></div>
-                    <div class="custom-content">
-                        <h1>Guiding Your mind to victory: Your best with every goal</h1>
-                        <p>
-                            Unlock and realise your potential with our services. We understand that each individual is different and thus we diversify our reach to treat them as individuals, whether you are a sportsperson looking for peak performance or seeking support for personal or family challenges. We guide our clients so that they can thrive both on and off field.
-                        </p>
-                        <a href="appointment.html" class="custom-btn">MAKE APPOINTMENT</a>
-                    </div>
-                </div>
-                <!-- Additional carousel items -->
-                <div class="custom-carousel-item" style="background-image: url('image/banner1.jpg');">
-                    <div class="custom-overlay"></div>
-                    <div class="custom-content">
-                        <h1>Another Slide Heading</h1>
-                        <p>Additional content for another slide.</p>
-                        <a href="appointment.html" class="custom-btn">MAKE APPOINTMENT</a>
-                    </div>
-                </div>
-                <div class="custom-carousel-item" style="background-image: url('image/banner1.jpg');">
-                    <div class="custom-overlay"></div>
-                    <div class="custom-content">
-                        <h1>Another Slide Heading</h1>
-                        <p>Additional content for another slide.</p>
-                        <a href="appointment.html" class="custom-btn">MAKE APPOINTMENT</a>
-                    </div>
-                </div>
-                <div class="custom-carousel-item" style="background-image: url('image/banner1.jpg');">
-                    <div class="custom-overlay"></div>
-                    <div class="custom-content">
-                        <h1>Another Slide Heading</h1>
-                        <p>Additional content for another slide.</p>
-                        <a href="appointment.html" class="custom-btn">MAKE APPOINTMENT</a>
+        <!-- <div class="section position-relative"
+            style="background-image: url(image/banner.jpg); height: 100vh;">
+            <div class="image-overlay"></div>
+            <div class="r-container h-100 position-relative" style="z-index: 2;">
+                <div class="d-flex flex-column w-100 h-100 justify-content-center align-items-center mx-auto text-center text-white gap-4"
+                    style="max-width: 895px;">
+                    
+                    <h1 class="font-1 banner-heading">Guiding Your mind to victory: Your best with every goal</h1>
+                    <p>
+                        Unlock and realise your potential with our services. We understand that each individual is different and thus we diversify our reach to treat them as individuals, whether you are a sportsperson looking for peak performance or seeking support for personal or family challenges. We guide our clients so that they can thrive both on and off field.   
+                    </p>
+                    <div class="d-flex flex-row gap-3">
+                        <a href="appointment.html" class="btn btn-accent btn-white-outline-hover px-4 py-3">MAKE APPOINTMENT</a>
                     </div>
                 </div>
             </div>
+        </div> -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url('image/banner.jpg'); height: 100vh; background-size: cover; background-position: center;">
+                    <div class="carousel-overlay"></div>
+                    <div class="carousel-caption d-flex justify-content-center align-items-center h-100">
+                        <div class="text-center text-white">
+                            <h1 class="display-4">Guiding Your mind to victory: Your best with every goal</h1>
+                            <p class="lead">
+                                Unlock and realise your potential with our services. We understand that each individual is different and thus we diversify our reach to treat them as individuals, whether you are a sportsperson looking for peak performance or seeking support for personal or family challenges. We guide our clients so that they can thrive both on and off field.
+                            </p>
+                            <a href="appointment.html" class="btn btn-accent btn-white-outline-hover px-4 py-3">MAKE APPOINTMENT</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('image/banner1.jpg'); height: 100vh; background-size: cover; background-position: center;">
+                    <div class="carousel-overlay"></div>
+                    <div class="carousel-caption d-flex justify-content-center align-items-center h-100">
+                        <div class="text-center text-white">
+                            <h1 class="display-4">Slide Heading 2</h1>
+                            <p class="lead">Additional content for the second slide.</p>
+                            <a href="appointment.html" class="btn btn-accent btn-white-outline-hover px-4 py-3">MAKE APPOINTMENT</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('image/banner.jpg'); height: 100vh; background-size: cover; background-position: center;">
+                    <div class="carousel-overlay"></div>
+                    <div class="carousel-caption d-flex justify-content-center align-items-center h-100">
+                        <div class="text-center text-white">
+                            <h1 class="display-4">Slide Heading 3</h1>
+                            <p class="lead">Additional content for the third slide.</p>
+                            <a href="appointment.html" class="btn btn-accent btn-white-outline-hover px-4 py-3">MAKE APPOINTMENT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
         </div>
+    
       
 
         <div class="section">
@@ -761,9 +782,10 @@
                     <div class="row row-cols-lg-2 row-cols-1">
                         <div class="col col-lg-4 mb-3">
                             <div class="d-flex flex-column gap-3">
-                                <img src="image/edit.png" alt="" class="img-fluid" width="160">
+                                <img src="image/image.png" alt="" class="img-fluid" width="160">
                                 <p>
-                                    All sessions are conducted via tele-therapy using HIPAA-compliant software, ensuring privacy and convenience without sacrificing quality.
+                                    Lorem ipsum dolor sit amet consectetur adipiscing mauris volutpat ante ut sagittis
+                                    efficitur arcu diam faucibus eli quis rhoncus enim augue ut orci donec.
                                 </p>
                                 <div class="social-container mb-lg-0 mb-3">
                                     <a href="https://www.facebook.com" class="social-item">
@@ -858,14 +880,19 @@
                                             <li>
                                                 <span class="d-flex flex-row align-items-center gap-3">
                                                     <i class="fa-solid fa-location-dot"></i>
-                                                    Kidd Wellness Solutions and Consulting, LLC
-                                                    Burtonsville, MD 20866
+                                                    KLLG st, No.99, Pku City, ID 28289
                                                 </span>
                                             </li>
                                             <li>
                                                 <span class="d-flex flex-row align-items-center gap-3">
                                                     <i class="fa-solid fa-phone"></i>
-                                                    (202) 410-0685
+                                                    0761-8523-398
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="d-flex flex-row align-items-center gap-3">
+                                                    <i class="fa-solid fa-envelope"></i>
+                                                    hello@domainsite.com
                                                 </span>
                                             </li>
                                         </ul>
@@ -916,7 +943,7 @@
                         <a href="" class="link text-white fs-6" >Term & Services</a>
                     </div>
                     <span class="text-center fs-6">
-                        Copyright © 2024 Health&Co. All Rights Reserved.
+                        Copyright © 2024 Vortex9. All Rights Reserved.
                     </span>
                 </div>
             </div>
